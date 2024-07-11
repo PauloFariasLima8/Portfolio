@@ -10,9 +10,6 @@ ul {
     align-items: center;
     padding: 16px;
 }
-.lista-ordenada{
-    text-align: left;
-}
 header img{
 width:150px;
 border-radius:50px;
@@ -30,6 +27,9 @@ color: rgb(243, 243, 246);
 }
 .centralizarText{
     text-align:justify;
+}
+.lista-ordenada{
+    text-align: left;
 }
  footer img {
 width:50px;
