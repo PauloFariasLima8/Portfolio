@@ -10,9 +10,8 @@ ul {
     align-items: center;
     padding: 16px;
 }
-lista-ordenada{
+.lista-ordenada{
     text-align: left;
-
 }
 header img{
 width:150px;
