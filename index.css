@@ -28,6 +28,10 @@ color: rgb(243, 243, 246);
 .centralizarText{
     text-align:justify;
 }
+.FormaçãoComplementar{
+    background-color:rgba(62, 62, 240, 0.486);
+    border-radius: 2%;
+}
 .lista-ordenada{
     text-align: left;
 }
