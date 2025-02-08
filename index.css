@@ -55,13 +55,19 @@ overflow: hidden;
 }
 .textcenter{
 position: down;
-color: rgb(243, 243, 246);
+color: rgba(67, 163, 241, 0.61);
 }
 .textCenterLeft{
     text-align: left;
+    background-color: rgba(67, 72, 238, 0.541);
+    border-radius: 3%;
 }
 .centralizarText{
     text-align:justify;
+}
+.FormaçãoComplementar{
+    background-color:rgba(62, 62, 240, 0.486);
+    border-radius: 2%;
 }
 .lista-ordenada{
     text-align: left;
