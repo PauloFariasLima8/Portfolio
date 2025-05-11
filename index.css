@@ -80,3 +80,72 @@ footer {
 display: flex;
 justify-content: center;
 }
+
+/* Estilo para os riscos animados como estrelas */
+.animated-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; /* Altura da área de animação */
+    overflow: hidden;
+    z-index: 0;
+}
+
+.animated-lines span {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3); /* Cor das linhas */
+    animation: star-lines 6s linear infinite;
+    transform-origin: center;
+}
+
+/* Gerar várias linhas com diferentes ângulos e velocidades */
+.animated-lines span:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+    transform: rotate(45deg);
+}
+.animated-lines span:nth-child(2) {
+    left: 30%;
+    animation-delay: 1s;
+    transform: rotate(-45deg);
+}
+.animated-lines span:nth-child(3) {
+    left: 50%;
+    animation-delay: 2s;
+    transform: rotate(30deg);
+}
+.animated-lines span:nth-child(4) {
+    left: 70%;
+    animation-delay: 3s;
+    transform: rotate(-30deg);
+}
+.animated-lines span:nth-child(5) {
+    left: 90%;
+    animation-delay: 4s;
+    transform: rotate(60deg);
+}
+
+/* Animação das linhas */
+@keyframes star-lines {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+/* Estilo para o vídeo de fundo */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta o vídeo para cobrir toda a área */
+    z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+    opacity: 0.7; /* Ajusta a transparência do vídeo */
+}
