@@ -27,6 +27,7 @@ body {
    margin: 0;
    padding: 0;
    font-family:Arial, sans-serif;
+   padding-top: 56px; /* Altura da barra de navegação */
 }
 ul {
     display: flex;
@@ -44,9 +45,15 @@ section {
 }
 header img{
 width:150px;
-border-radius:50px;
+border-radius:35px;
 border:5px solid #577ae4;
 }
+
+/* Adiciona mais espaço entre a barra de menu e a foto */
+header .container {
+    padding-top: 150px; /* Aumente o valor para criar mais espaço */
+}
+
 .center{
 text-align: center;
 width: 80%;
@@ -128,7 +135,7 @@ justify-content: center;
     transform: rotate(60deg);
 }
 
-/* Animação das linhas */
+/* Animação das linhas 
 @keyframes star-lines {
     0% {
         top: -100%;
@@ -136,7 +143,7 @@ justify-content: center;
     100% {
         top: 100%;
     }
-}
+} */    
 
 /* Estilo para o vídeo de fundo */
 .video-background {
