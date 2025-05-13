@@ -656,9 +656,9 @@ social-icon-link i:hover {
     }
 
     .hero-section h2 {
-        font-size: 1.5rem; /* Reduz o tamanho do texto */
-        margin-left: 20px; /* Adiciona afastamento para a direita */
-        text-align: left; /* Mantém o alinhamento à esquerda */
+        font-size: 1.2rem; /* Reduz o tamanho do texto */
+        margin-left: 10px; /* Ajusta o afastamento para a direita */
+        text-align: center; /* Centraliza o texto em dispositivos móveis */
     }
 
     .hero-section .catalogo {
@@ -699,9 +699,9 @@ social-icon-link i:hover {
 
     /* Ajusta o botão de "Entrar em Contato" */
     .custom-btn {
-        font-size: 1rem; /* Reduz o tamanho do texto */
-        padding: 10px 15px; /* Ajusta o espaçamento interno */
-        width: 90%; /* Reduz a largura para caber melhor */
+        font-size: 0.8rem; /* Reduz ainda mais o tamanho do texto */
+        padding: 8px 12px; /* Ajusta o espaçamento interno */
+        width: 80%; /* Reduz a largura para caber melhor */
         text-align: center; /* Centraliza o texto */
         margin: 10px auto; /* Centraliza o botão horizontalmente */
         display: block; /* Garante que o botão seja exibido como bloco */
@@ -742,9 +742,9 @@ social-icon-link i:hover {
     }
 
     .hero-section h2 {
-        font-size: 1.5rem; /* Reduz o tamanho do título */
-        margin-left: 20px; /* Adiciona afastamento para a direita */
-        text-align: left; /* Mantém o alinhamento à esquerda */
+        font-size: 1.2rem; /* Reduz o tamanho do título */
+        margin-left: 10px; /* Ajusta o afastamento para a direita */
+        text-align: center; /* Centraliza o texto em dispositivos móveis */
     }
 
     /* Ajusta o botão de "Enviar" */
