@@ -657,7 +657,8 @@ social-icon-link i:hover {
 
     .hero-section h2 {
         font-size: 1.5rem; /* Reduz o tamanho do texto */
-        margin-left: 0; /* Remove o deslocamento lateral */
+        margin-left: 20px; /* Adiciona afastamento para a direita */
+        text-align: left; /* Mantém o alinhamento à esquerda */
     }
 
     .hero-section .catalogo {
@@ -742,7 +743,19 @@ social-icon-link i:hover {
 
     .hero-section h2 {
         font-size: 1.5rem; /* Reduz o tamanho do título */
-        margin-left: 0; /* Remove o deslocamento lateral */
+        margin-left: 20px; /* Adiciona afastamento para a direita */
+        text-align: left; /* Mantém o alinhamento à esquerda */
+    }
+
+    /* Ajusta o botão de "Enviar" */
+    .custom-form button[type="submit"] {
+        font-size: 0.9rem; /* Reduz o tamanho do texto */
+        padding: 8px 12px; /* Ajusta o espaçamento interno */
+        width: auto; /* Remove largura fixa para evitar parecer uma bola */
+        border-radius: 20px; /* Mantém bordas arredondadas, mas evita parecer circular */
+        text-align: center;
+        margin: 10px auto; /* Centraliza o botão horizontalmente */
+        display: block;
     }
 }
 
