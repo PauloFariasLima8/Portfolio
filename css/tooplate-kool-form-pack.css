@@ -641,6 +641,111 @@ social-icon-link i:hover {
   }
 }
 
+/* Configurações gerais para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Ajusta o layout da seção Hero */
+    .hero-section {
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .hero-section img {
+        width: 150px; /* Reduz o tamanho da imagem */
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .hero-section h2 {
+        font-size: 1.5rem; /* Reduz o tamanho do texto */
+        margin-left: 0; /* Remove o deslocamento lateral */
+    }
+
+    .hero-section .catalogo {
+        margin-top: 20px;
+    }
+
+    .customCatalogoButton {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+
+    /* Ajusta o layout da Trajetória Acadêmica */
+    .bg-light {
+        padding: 20px 10px;
+    }
+
+    .bg-light h2 {
+        font-size: 1.5rem;
+    }
+
+    .bg-light p {
+        font-size: 0.9rem;
+    }
+
+    /* Ajusta o rodapé */
+    footer .row {
+        flex-direction: column; /* Empilha os itens no rodapé */
+        text-align: center;
+    }
+
+    footer .col-md-3 {
+        margin-bottom: 15px;
+    }
+
+    footer a {
+        font-size: 0.9rem;
+    }
+
+    /* Ajusta o botão de "Entrar em Contato" */
+    .custom-btn {
+        font-size: 1rem; /* Reduz o tamanho do texto */
+        padding: 10px 15px; /* Ajusta o espaçamento interno */
+        width: 90%; /* Reduz a largura para caber melhor */
+        text-align: center; /* Centraliza o texto */
+        margin: 10px auto; /* Centraliza o botão horizontalmente */
+        display: block; /* Garante que o botão seja exibido como bloco */
+    }
+
+    /* Ajusta a imagem de perfil */
+    .hero-section img {
+        width: 120px; /* Reduz o tamanho da imagem */
+        height: 120px;
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        display: block; /* Garante que a imagem seja exibida como bloco */
+    }
+
+    /* Ajusta os textos de graduação e áreas de atuação */
+    .countdown {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .countdown-item {
+        width: 100%; /* Faz os itens ocuparem toda a largura */
+        margin-bottom: 20px; /* Adiciona espaçamento entre os itens */
+    }
+
+    .countdown-title {
+        font-size: 1.2rem; /* Reduz o tamanho do texto */
+    }
+
+    .countdown-text {
+        font-size: 1rem; /* Reduz o tamanho do texto */
+    }
+
+    /* Ajusta o layout geral da seção Hero */
+    .hero-section {
+        padding: 30px 15px; /* Reduz o espaçamento interno */
+        text-align: center; /* Centraliza todo o conteúdo */
+    }
+
+    .hero-section h2 {
+        font-size: 1.5rem; /* Reduz o tamanho do título */
+        margin-left: 0; /* Remove o deslocamento lateral */
+    }
+}
+
 .catalogo {
     position: absolute;
     bottom: 50px;
