@@ -596,6 +596,16 @@ social-icon-link i:hover {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+@media screen and (max-width: 360px) {
+.buttonContact{
+  width: 20%;
+  padding: 8px 16px;
+
+  font-size: 1%;
+}
+  
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 36px;
